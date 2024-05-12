@@ -29,5 +29,9 @@ variable "subnet_address_space" {
 }
 
 variable "vm_count" {
+  default = 0
+}
+
+variable "disk_count" {
   default = 2
 }
